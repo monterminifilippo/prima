@@ -1,0 +1,6 @@
+#richiedo il valore
+valore=input('inserisci valore: ')
+#lo trasformo a segno invertito
+invertito=-1*int(valore)
+#e lo stampo
+print('valore con segno invertito: '+str(invertito))
