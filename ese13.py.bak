@@ -1,0 +1,8 @@
+#richiedo la base e la trasformo in float
+b=input('Inserire la base: ')
+fB=float(b)
+#faccio lo stesso con l'esponente
+e=input("Inserire l'esponente: ")
+fE=float(e)
+ris=pow(fB,fE)
+print('b^e: '+str(ris))
