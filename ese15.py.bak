@@ -1,0 +1,9 @@
+#chiedo l' inserimento la prima coppia di coordinate
+x1=input('inserire x1: ')
+y1=input('inserire y1: ')
+print('primo punto: ('+x1+', '+y1+')')
+
+#ora chiedo quello della seconda
+x2=input('inserire x2: ')
+y2=input('inserire y2: ')
+
