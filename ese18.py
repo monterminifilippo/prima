@@ -6,7 +6,7 @@ n1=input('Inserire mese (valore tra 1 e 12): ')
 #ora controllo che il valore del mese sia un numero intero, in caso contrario chiudo il programma 
 try:
     in1=int(n1)
-except:
+except ValueError:
     print("Non e' un intero!")
     os._exit(1)
     
@@ -19,7 +19,7 @@ n2=input('Inserire giorno del mese: ')
 #ora controllo che il valore del giorno sia un numero intero, in caso contrario chiudo il programma 
 try:
     in2=int(n2)
-except:
+except ValueError:
     print("Non e' un intero!")
     os._exit(1)
 #ora controllo che quel giorno di quel mese esista effettivamente

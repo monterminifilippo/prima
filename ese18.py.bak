@@ -9,10 +9,11 @@ try:
 except:
     print("Non e' un intero!")
     os._exit(1)
+    
 #ora controllo che sia compreso nell' intervallo [1,12]
 if(in1<1 or in1>12):
     print('Valore non valido!')
-    
+    os._exit(1)
 #chiedo l' inserimento del valore del giorno
 n2=input('Inserire giorno del mese: ')
 #ora controllo che il valore del giorno sia un numero intero, in caso contrario chiudo il programma 
