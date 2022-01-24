@@ -1,0 +1,16 @@
+while True:
+    x=input('inserire un intero >0: ')
+    flag=True
+    try:
+        ix=int(x)
+    except ValueError:
+        print(x+" non e' un intero!")
+        flag=False
+        continue
+        
+    if(in1<=0):
+        print(x+" non e' > 0!")
+        flag=False
+
+    if flag:
+            break
